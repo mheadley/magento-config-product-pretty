@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MH_Configurable>
+            <version>0.1</version>
+        </MH_Configurable>
+    </modules>
+    <global>
+        <models>
+            <configurable>
+                <class>MH_Configurable_Model</class>
+            </configurable>
+        </models>
+        <blocks>
+            <configurable>
+                <class>MH_Configurable_Block</class>
+            </configurable>
+            <catalog>
+                <rewrite>
+                    <product_view_type_configurable>MH_Configurable_Block_Frontend_Configurable</product_view_type_configurable>
+                </rewrite>
+            </catalog>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <configurable module="MH_Configurable">
+                    <file>configurable.xml</file>
+                </configurable>
+            </updates>
+        </layout>
+    </frontend>
+</config>

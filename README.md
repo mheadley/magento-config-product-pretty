@@ -1,4 +1,7 @@
-magento-config-product-pretty
-=============================
+mh-configurable-product-pretty v0.0.1 
+=================
 
-A module for magento to convert the drop downs to radio buttons
+Very simple module.  Right now all it does it convert the dropdown to radio buttons looking to add more functionality after.  
+
+It is built for magento.  Versions 1.1.13 until current
+
